@@ -54,3 +54,10 @@ C:\Users\diogo\Github\GerenciadorTarefas\Back\src\Tarefa.API\Tarefa.API\obj\Debu
 C:\Users\diogo\Github\GerenciadorTarefas\Back\src\Tarefa.API\Tarefa.API\obj\Debug\net5.0\Tarefa.API.pdb
 C:\Users\diogo\Github\GerenciadorTarefas\Back\src\Tarefa.API\Tarefa.API\obj\Debug\net5.0\Tarefa.API.genruntimeconfig.cache
 C:\Users\diogo\Github\GerenciadorTarefas\Back\src\Tarefa.API\Tarefa.API\obj\Debug\net5.0\ref\Tarefa.API.dll
+C:\Users\diogo\Github\GerenciadorTarefas\Back\src\Tarefa.API\Tarefa.API\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\diogo\Github\GerenciadorTarefas\Back\src\Tarefa.API\Tarefa.API\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\diogo\Github\GerenciadorTarefas\Back\src\Tarefa.API\Tarefa.API\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\diogo\Github\GerenciadorTarefas\Back\src\Tarefa.API\Tarefa.API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\diogo\Github\GerenciadorTarefas\Back\src\Tarefa.API\Tarefa.API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\diogo\Github\GerenciadorTarefas\Back\src\Tarefa.API\Tarefa.API\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\diogo\Github\GerenciadorTarefas\Back\src\Tarefa.API\Tarefa.API\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll

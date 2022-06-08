@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace Tarefa.API.Data.Migrations
+namespace Tarefa.API.Migrations
 {
     public partial class Initial : Migration
     {
@@ -12,7 +12,7 @@ namespace Tarefa.API.Data.Migrations
                 {
                     Id = table.Column<int>(type: "INTEGER", nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
-                    Name = table.Column<string>(type: "TEXT", nullable: true),
+                    Nome = table.Column<string>(type: "TEXT", nullable: true),
                     Email = table.Column<string>(type: "TEXT", nullable: true),
                     Senha = table.Column<string>(type: "TEXT", nullable: true)
                 },
