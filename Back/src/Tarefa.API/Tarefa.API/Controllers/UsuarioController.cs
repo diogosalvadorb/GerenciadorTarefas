@@ -8,6 +8,7 @@ using System.Text.RegularExpressions;
 using Tarefa.API.Dtos;
 using Tarefa.API.Models;
 using Tarefa.API.Repository.Contrato;
+using Tarefa.API.Utils;
 
 namespace Tarefa.API.Controllers
 {
@@ -50,7 +51,9 @@ namespace Tarefa.API.Controllers
                 {
                     erros.Add("Email inválido");
                 }
-               
+
+
+
                 if (erros.Count > 0)
                 {
                     return BadRequest(new ErroRespotaDto()
@@ -60,6 +63,7 @@ namespace Tarefa.API.Controllers
                     });
                 }
 
+                usuario.Senha = MD5Utils.GerarHashMD5(usuario.Senha);
                 _usuarioRepository.Salvar(usuario);
 
                 return Ok(new {msg = "Usuário Criado com sucesso"});
