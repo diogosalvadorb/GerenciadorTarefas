@@ -1,4 +1,4 @@
-﻿using GerenciadorDeTarefas.API.API.Dtos;
+﻿using GerenciadorDeTarefas.API.Dtos;
 using GerenciadorDeTarefas.API.Models;
 using GerenciadorDeTarefas.API.Repository.Contrato;
 using GerenciadorDeTarefas.API.Utils;
@@ -18,13 +18,10 @@ namespace GerenciadorDeTarefas.API.Controllers
     public class UsuarioController : BaseController
     {
         private readonly ILogger<UsuarioController> _logger;
-        private readonly IUsuarioRepository _usuarioRepository;
-
         public UsuarioController(ILogger<UsuarioController> logger,
-                                 IUsuarioRepository usuarioRepository)
+                                 IUsuarioRepository usuarioRepository) :base(usuarioRepository)
         {
             _logger = logger;
-            _usuarioRepository = usuarioRepository;
         }
 
         [HttpPost]

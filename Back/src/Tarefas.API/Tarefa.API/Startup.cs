@@ -63,6 +63,7 @@ namespace GerenciadorDeTarefas.API
 
             services.AddCors();
             services.AddScoped<IUsuarioRepository, UsuarioRepository>();
+            services.AddScoped<ITarefaRepository, TarefaRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

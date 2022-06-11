@@ -15,12 +15,11 @@ namespace GerenciadorDeTarefas.API.Controllers
     public class LoginController : BaseController
     {
         private readonly ILogger<LoginController> _logger;
-        private readonly IUsuarioRepository _usuarioRepository;
+        
         public LoginController(ILogger<LoginController> logger,
-                               IUsuarioRepository usuarioRepository )
+                               IUsuarioRepository usuarioRepository ) : base(usuarioRepository)
         {
             _logger = logger;
-            _usuarioRepository = usuarioRepository;
         }
 
         [HttpPost]
