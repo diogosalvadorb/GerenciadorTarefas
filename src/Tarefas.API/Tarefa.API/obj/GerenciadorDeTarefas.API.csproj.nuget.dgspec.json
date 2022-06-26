@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\diogo\\Github\\GerenciadorTarefas\\Back\\src\\Tarefas.API\\Tarefa.API\\GerenciadorDeTarefas.API.csproj": {}
+    "C:\\Users\\diogo\\Github\\GerenciadorTarefas\\src\\Tarefas.API\\Tarefa.API\\GerenciadorDeTarefas.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\diogo\\Github\\GerenciadorTarefas\\Back\\src\\Tarefas.API\\Tarefa.API\\GerenciadorDeTarefas.API.csproj": {
+    "C:\\Users\\diogo\\Github\\GerenciadorTarefas\\src\\Tarefas.API\\Tarefa.API\\GerenciadorDeTarefas.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\diogo\\Github\\GerenciadorTarefas\\Back\\src\\Tarefas.API\\Tarefa.API\\GerenciadorDeTarefas.API.csproj",
+        "projectUniqueName": "C:\\Users\\diogo\\Github\\GerenciadorTarefas\\src\\Tarefas.API\\Tarefa.API\\GerenciadorDeTarefas.API.csproj",
         "projectName": "GerenciadorDeTarefas.API",
-        "projectPath": "C:\\Users\\diogo\\Github\\GerenciadorTarefas\\Back\\src\\Tarefas.API\\Tarefa.API\\GerenciadorDeTarefas.API.csproj",
+        "projectPath": "C:\\Users\\diogo\\Github\\GerenciadorTarefas\\src\\Tarefas.API\\Tarefa.API\\GerenciadorDeTarefas.API.csproj",
         "packagesPath": "C:\\Users\\diogo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\diogo\\Github\\GerenciadorTarefas\\Back\\src\\Tarefas.API\\Tarefa.API\\obj\\",
+        "outputPath": "C:\\Users\\diogo\\Github\\GerenciadorTarefas\\src\\Tarefas.API\\Tarefa.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\diogo\\AppData\\Roaming\\NuGet\\NuGet.Config",
