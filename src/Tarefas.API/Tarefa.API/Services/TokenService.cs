@@ -1,5 +1,6 @@
 ﻿using GerenciadorDeTarefas.API.Models;
 using Microsoft.IdentityModel.Tokens;
+using System;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
@@ -19,6 +20,7 @@ namespace GerenciadorDeTarefas.API.Services
                     new Claim(ClaimTypes.Sid, usuario.Id.ToString()),
                     new Claim(ClaimTypes.Name, usuario.Nome)
                 }),
+                Expires = DateTime.UtcNow.AddHours(2),
                 SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(chaveCriptografia), SecurityAlgorithms.HmacSha256Signature),
             };
 
